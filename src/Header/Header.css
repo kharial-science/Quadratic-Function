@@ -1,0 +1,42 @@
+#Header {
+  height: 100vh;
+  background-color: #2E2E2E;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Header h1 {
+  margin: 0;
+  font-size: 6vw;
+}
+
+#Header h2 {
+  margin: 0;
+  font-size: 1.7vw;
+  color: #afafaf;
+}
+
+#Header .coefficient.a {
+  color: #f3abfd;
+}
+
+#Header .coefficient.b {
+  color: #8bc3f7;
+}
+
+#Header .coefficient.c {
+  color: #abfdb9;
+}
+/*# sourceMappingURL=Header.css.map */

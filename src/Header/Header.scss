@@ -1,0 +1,41 @@
+#Header {
+
+    height: 100vh;
+    background-color: #2E2E2E;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        margin: 0;
+        font-size: 6vw;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.7vw;
+        color: rgb(175, 175, 175);
+    }
+
+    .coefficient {
+
+        &.a {
+            color:#f3abfd;
+        }
+        
+        &.b {
+            color:#8bc3f7;
+        }
+        
+        &.c {
+            color:#abfdb9;
+        }
+
+    }
+
+    
+
+}
