@@ -1,22 +1,23 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#App {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-
-.App-link {
-  color: #09d3ac;
-}
+/*# sourceMappingURL=App.css.map */
