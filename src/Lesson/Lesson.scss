@@ -13,10 +13,29 @@
 
     #LessonContent {
         margin-top: -200px;
+        padding-top: 150px;
         width: 100%;
         height: 2000px;
         background-color: white;
         border-radius: 50px;
+
+        display: grid;
+        grid-template-columns: 11% [PartTitle] 5% [SubPartTitle] auto 11%;
+        grid-template-rows: repeat(100, auto);
+
+        .PartTitle {
+            margin: 0;
+            grid-column: PartTitle / span 3;
+            font-size: 45px;
+            color: lightcoral;
+        }
+
+        .SubPartTitle {
+            margin: 0;
+            grid-column: SubPartTitle / span 3;
+            font-size: 25px;
+            color: lightgreen;
+        }
     }
 
 }

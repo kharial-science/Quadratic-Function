@@ -16,6 +16,7 @@ class Lesson extends Component {
                 <div className="border-header"></div>
                 <div id="LessonContent">
                     <PartTitle partNumber={1} titleName="Polynômes du second degré"/>
+                    <SubPartTitle partNumber={1} titleName="Définition" />
                 </div>
                 
             </div>
