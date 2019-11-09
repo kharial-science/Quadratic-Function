@@ -7,7 +7,7 @@ class SubPartTitle extends Component {
     
     render() {
         return (
-    <h3 className="SubPartTitle">{this.props.partNumber}. {this.props.titleName}</h3>
+            <h3 className="SubPartTitle">{this.props.title}</h3>
         )
     }
 }

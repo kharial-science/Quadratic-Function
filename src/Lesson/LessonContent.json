@@ -1,0 +1,37 @@
+[
+    {
+        "PartTitle": "I. Polynômes du second degré",
+        "content": [
+            {
+                "SubPartTitle": "1. Définition",
+                "content": [
+                    {
+                        "ParagraphTitle": "Définition",
+                        "content": "On appelle fonction du second degré (ou trinôme du second degré) toute fonction f définie sur R par f(x) = ax²+bx+c où a, b et c sont trois nombres réels avec a ≠ 0"
+                    }
+                ]
+            },
+            {
+                "SubPartTitle": "2. Forme canonique",
+                "content": [
+                    {
+                        "ParagraphTitle": "Méthode de complétion du carré",
+                        "content": "Pour tout nombre réels x et k, on a:\nx² + kx = (x + k/2)²-(k/2)²"
+                    },
+                    {
+                        "ParagraphTitle": "Démonstration",
+                        "content": "(x + k/2)² - (k/2)² = x² + kx + (k/2)² - (k/2)²"
+                    },
+                    {
+                        "ParagraphTitle": "Exemples",
+                        "content": "Complète: A finir"
+                    },
+                    {
+                        "ParagraphTitle": "Propriété",
+                        "content": "Toute fonction polynôme du second degré f définie sur l'ensemble des nombres réels par f(x) = ax² + bx + c où a, b et c sont des réels avec a ≠ 0, peut s'écrire de façon unique sous la forme f(x) = a(x - α) + β où α et β sont deux réels. Cette forme est la forme canonique du polynôme ax² + bx + c."
+                    }
+                ]
+            }
+        ]
+    }
+]

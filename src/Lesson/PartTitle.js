@@ -7,7 +7,7 @@ class PartTitle extends Component {
 
     render() {
         return (
-            <h2 className="PartTitle">{this.props.partNumber}. {this.props.titleName}</h2>
+            <h2 className="PartTitle">{this.props.title}</h2>
         )
     }
 }
