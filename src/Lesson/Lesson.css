@@ -27,23 +27,39 @@
   border-radius: 50px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 11% [PartTitle] 5% [SubPartTitle] auto 11%;
-      grid-template-columns: 11% [PartTitle] 5% [SubPartTitle] auto 11%;
+  -ms-grid-columns: 11% [PartTitle] 5% [SubPartTitle] 2% [Paragraph] auto 11%;
+      grid-template-columns: 11% [PartTitle] 5% [SubPartTitle] 2% [Paragraph] auto 11%;
   -ms-grid-rows: (auto)[100];
       grid-template-rows: repeat(100, auto);
 }
 
 #Lesson #LessonContent .PartTitle {
   margin: 0;
-  grid-column: PartTitle / span 3;
+  grid-column: PartTitle / span 10;
   font-size: 45px;
   color: lightcoral;
 }
 
 #Lesson #LessonContent .SubPartTitle {
-  margin: 0;
-  grid-column: SubPartTitle / span 3;
+  margin: 100px 0 0 0;
+  grid-column: SubPartTitle / span 10;
   font-size: 25px;
   color: lightgreen;
+}
+
+#Lesson #LessonContent .Paragraph {
+  margin: 20px 0 0 0;
+  grid-column: Paragraph / span 10;
+}
+
+#Lesson #LessonContent .Paragraph .ParagraphTitle {
+  margin: 0;
+  font-size: 25px;
+  color: lightblue;
+}
+
+#Lesson #LessonContent .Paragraph .ParagraphContent {
+  width: 50vw;
+  text-align: justify;
 }
 /*# sourceMappingURL=Lesson.css.map */

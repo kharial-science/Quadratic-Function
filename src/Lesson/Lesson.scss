@@ -20,22 +20,41 @@
         border-radius: 50px;
 
         display: grid;
-        grid-template-columns: 11% [PartTitle] 5% [SubPartTitle] auto 11%;
+        grid-template-columns: 11% [PartTitle] 5% [SubPartTitle] 2% [Paragraph] auto 11%;
         grid-template-rows: repeat(100, auto);
 
         .PartTitle {
             margin: 0;
-            grid-column: PartTitle / span 3;
+            grid-column: PartTitle / span 10;
             font-size: 45px;
             color: lightcoral;
         }
 
         .SubPartTitle {
-            margin: 0;
-            grid-column: SubPartTitle / span 3;
+            margin: 100px 0 0 0;
+            grid-column: SubPartTitle / span 10;
             font-size: 25px;
             color: lightgreen;
         }
+
+        .Paragraph {
+
+            margin: 20px 0 0 0;
+            grid-column: Paragraph / span 10;
+
+            .ParagraphTitle {
+                margin: 0;
+                font-size: 25px;
+                color: lightblue;
+            }
+
+            .ParagraphContent {
+                width: 50vw;
+                text-align: justify;
+            }
+
+        }
+        
     }
 
 }
