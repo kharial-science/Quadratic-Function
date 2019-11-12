@@ -19,8 +19,8 @@ const LessonJSON = [
                     {
                         "ParagraphTitle": "Méthode de complétion du carré",
                         "content": [
-                            "Pour tout nombre réels x et k, on a:", 
-                            "x² + kx = (x + k/2)²-(k/2)²"
+                            "Pour tout nombre réels x et k, on a :", 
+                            "formula: x² + kx = (x + k/2)² - (k/2)²"
                         ]
                     },
                     {
@@ -37,15 +37,58 @@ const LessonJSON = [
                     },
                     {
                         "ParagraphTitle": "Démonstration",
-                        "content": "Soit f la fonction polynôme définie sur l'ensemble réel par f(x) = ax² + bx + c avec a, b et c des réels et a ≠ 0\nOn factorise par le coefficient a:\na(x² + (b/a)x + c/a)\nOn considère x² + (b/a)x comme le début du développement de (x+b/2a)²\nx² + (b/a)x = (x + b/2a)² - (b/2a)²\nx² + (b/a)x = (x + b/2a)² - b²/4a²\nD'où:\nf(x) = a[(x + b/2a)² - b²/4a² + c/a]\nf(x) = a[(x + b/2a)² - b²/4a² + 4ac/4a²]\nf(x) = a[(x + b/2a)² - (b² - 4ac)/4a²\nPosons Δ = b² - 4ac]\nOn a alors:\nf(x) = a[(x + b/2a)² - Δ/4a²]\f(x) = na(x + b/2a)² - Δ/4a\nf(x) = a(x - (-b/2a))² + -Δ/4a\nPosons α = -b/2a et β = -Δ/4a\nOn obtient:\nf(x) = a(x-α)² + β"
+                        "content": [
+                            "Soit f la fonction polynôme définie sur l'ensemble réel par f(x) = ax² + bx + c avec a, b et c des réels et a ≠ 0",
+                        "On factorise par le coefficient a:",
+                        "formula: a(x² + (b/a)x + c/a)",
+                        "On considère x² + (b/a)x comme le début du développement de (x+b/2a)²",
+                        "formula: x² + (b/a)x = (x + b/2a)² - (b/2a)²",
+                        "formula: x² + (b/a)x = (x + b/2a)² - b²/4a²",
+                        "D'où:",
+                        "formula: f(x) = a[(x + b/2a)² - b²/4a² + c/a]",
+                        "formula: f(x) = a[(x + b/2a)² - b²/4a² + 4ac/4a²]",
+                        "formula: f(x) = a[(x + b/2a)² - (b² - 4ac)/4a²",
+                        "Posons Δ = b² - 4ac]",
+                        "On a alors:",
+                        "formula: f(x) = a[(x + b/2a)² - Δ/4a²]",
+                        "formula: f(x) = na(x + b/2a)² - Δ/4a",
+                        "formula: f(x) = a(x - (-b/2a))² + -Δ/4a",
+                        "Posons α = -b/2a et β = -Δ/4a",
+                        "On obtient:",
+                        "formula: f(x) = a(x-α)² + β"
+                        ]
                     },
                     {
                         "ParagraphTitle": "Remarque",
-                        "content": "f(x) = a(x-α)² + β\nAlors:\nf(α) = a(α-α) + β\nf(α) = β"
+                        "content": [
+                            "f(x) = a(x-α)² + β",
+                            "Alors:",
+                            "f(α) = a(α-α) + β",
+                            "f(α) = β"
+                        ]
                     },
                     {
                         "ParagraphTitle": "Exemples",
-                        "content": "Ecrire chacun des polynômes suivants sous la forme canonique:\nA(x) = x² + x - 1\nA(x) = (x + 2)² - 5\n\nB(x) = 2x² - 4x - 6\nB(x) = 2[(x-1)²+2]\nB(x) = 2(x-1)² + 4\n\nC(x) = -x² + 2x + 5\nC(x) = -1[(x-1)²-6]\nC(x) = -(x-1)² + 6\n D(x) = 3x² - x + 1\nD(x) = 3[x - x/3 + 1/3]\nD(x) = 3[(x - 1/6)² + 11/36]\nD(x) = 3(x-1/6)² + 11/12"
+                        "content": [
+                            "Ecrire chacun des polynômes suivants sous la forme canonique:",
+                            " ",
+                            " ",
+                            "formula: A(x) = x² + x - 1",
+                            "formula: A(x) = (x + 2)² - 5",
+                            " ",
+                            "formula: B(x) = 2x² - 4x - 6",
+                            "formula: B(x) = 2[(x-1)²+2]",
+                            "formula: B(x) = 2(x-1)² + 4",
+                            " ",
+                            "formula: C(x) = -x² + 2x + 5",
+                            "formula: C(x) = -1[(x-1)²-6]",
+                            "formula: C(x) = -(x-1)² + 6",
+                            " ",
+                            "formula: D(x) = 3x² - x + 1",
+                            "formula: D(x) = 3[x - x/3 + 1/3]",
+                            "formula: D(x) = 3[(x - 1/6)² + 11/36]",
+                            "formula: D(x) = 3(x-1/6)² + 11/12"
+                        ]
                     }
                 ]
             }

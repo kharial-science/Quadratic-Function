@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import Formula from './Formula'
+
 class Paragraph extends Component {
     constructor(props) {
         super(props)
@@ -11,7 +13,12 @@ class Paragraph extends Component {
         if (typeof this.props.content == 'object') {
             p = []
             this.props.content.forEach(pContent => {
-                p.push(<p className="ParagraphContent">{pContent}</p>)
+                if (pContent.match('formula:')) {
+                    pContent = pContent.slice('formula:'.length + 1)
+                    p.push(<p className="ParagraphContent"><Formula content={pContent} /></p>)
+                } else {
+                    p.push(<p className="ParagraphContent">{pContent}</p>)
+                }
             })
         }
 
