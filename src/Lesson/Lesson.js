@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import LessonJSON from './LessonContent.js'
+import LessonJSON from './LessonContent.jsx'
 
 import './Lesson.css'
 
@@ -36,7 +36,6 @@ class Lesson extends Component {
 
             }
         }
-        console.log(this.state.lesson)
         this.setState({})
     }
 

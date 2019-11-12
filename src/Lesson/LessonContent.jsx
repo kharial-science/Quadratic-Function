@@ -1,3 +1,5 @@
+import React from 'react'
+
 const LessonJSON = [
     {
         "PartTitle": "I. Polynômes du second degré",
@@ -16,7 +18,10 @@ const LessonJSON = [
                 "content": [
                     {
                         "ParagraphTitle": "Méthode de complétion du carré",
-                        "content": "Pour tout nombre réels x et k, on a: x² + kx = (x + k/2)²-(k/2)²"
+                        "content": [
+                            "Pour tout nombre réels x et k, on a:", 
+                            "x² + kx = (x + k/2)²-(k/2)²"
+                        ]
                     },
                     {
                         "ParagraphTitle": "Démonstration",

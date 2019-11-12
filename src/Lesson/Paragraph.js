@@ -6,10 +6,19 @@ class Paragraph extends Component {
     }
 
     render() {
+
+        let p = <p className="ParagraphContent">{this.props.content}</p>
+        if (typeof this.props.content == 'object') {
+            p = []
+            this.props.content.forEach(pContent => {
+                p.push(<p className="ParagraphContent">{pContent}</p>)
+            })
+        }
+
         return (
             <div className="Paragraph">
                 <h4 className="ParagraphTitle">{this.props.title}</h4>
-                <p className="ParagraphContent">{this.props.content}</p>
+                {p}
             </div>
         )
     }
