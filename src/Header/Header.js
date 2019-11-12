@@ -10,7 +10,7 @@ class Header extends Component {
     render() {
         return (
             <div id="Header">
-                <h1> f(x) = <span className = "coefficient a">a</span>x² + <span className = "coefficient b">b</span>x + <span className = "coefficient c">c</span></h1>
+                <h1> f(<span className="coefficient x">x</span>) = <span className = "coefficient a">a</span>x² + <span className = "coefficient b">b</span>x + <span className = "coefficient c">c</span></h1>
                 <h2>La fonction polynôme du second degré</h2>
             </div>
         )

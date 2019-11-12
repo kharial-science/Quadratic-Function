@@ -29,7 +29,7 @@
 }
 
 #Header .coefficient.a {
-  color: #f3abfd;
+  color: #f8ed93;
 }
 
 #Header .coefficient.b {
@@ -38,5 +38,9 @@
 
 #Header .coefficient.c {
   color: #abfdb9;
+}
+
+#Header .coefficient.x {
+  color: #f3abfd;
 }
 /*# sourceMappingURL=Header.css.map */
