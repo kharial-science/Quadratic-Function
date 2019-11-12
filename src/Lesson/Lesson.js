@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import LessonJSON from './LessonContent.json'
+import LessonJSON from './LessonContent.js'
 
 import './Lesson.css'
 
