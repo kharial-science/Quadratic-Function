@@ -25,9 +25,11 @@ class Lesson extends Component {
                     this.state.lesson.push(<SubPartTitle title={SubPart.SubPartTitle} />)
                     if (SubPart.content) {
 
+                        let ParagraphArray = []
                         for (const ParagraphObj of SubPart.content) {
-                            this.state.lesson.push(<Paragraph title={ParagraphObj.ParagraphTitle} content={ParagraphObj.content} />)
+                            ParagraphArray.push(<Paragraph title={ParagraphObj.ParagraphTitle} content={ParagraphObj.content} />)
                         }
+                        this.state.lesson.push(<div className="paragraph-container">{ParagraphArray}</div>)
 
                     }
                 }
