@@ -98,19 +98,20 @@
     display: inline-block;
     position: relative;
     top: 10px;
+
+    .numerator {
+        display: block;
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid;
+    }
+    
+    .denominator {
+        display: block;
+        height: 50%;
+        width: 100%;
+        text-align: center;
+    }
 }
 
-.numerator {
-    display: block;
-    height: 50%;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid;
-}
-
-.denominator {
-    display: block;
-    height: 50%;
-    width: 100%;
-    text-align: center;
-}
