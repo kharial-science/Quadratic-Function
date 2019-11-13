@@ -46,6 +46,7 @@ class Lesson extends Component {
                 <div id="LessonContent">
                     {this.state.lesson}
                 </div>
+                <p>Exemple sur une ligne pour bien te montrer tout ça: <div className="fraction"><span className="numerator">19</span><span className="denominator">16</span></div> Et la suite</p>
             </div>
         )
     }
